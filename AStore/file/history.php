@@ -102,23 +102,23 @@ $resultSet = mysqli_query($mysqli,$sql);
   
  
 <div class="list_product" style="margin-top:30px;">
-  <div class="text3" style="padding-top:10px; padding-left:5px; font-size:15px; color:#d49f31;">
+  <div class="text3" style="padding-top:10px; padding-left:5px; font-size:20px; color:#d49f31;">
       คำสั่งซื้อที่ 00001 <br/><br/>
-      <div style="margin-left:60px; font-size:18px; margin-top:25px;">รหัสสถานะสินค้า AS0001</div>
+      <div style="margin-left:55px; font-size:30px; margin-top:10px;">รหัสสถานะสินค้า AS0001</div>
   </div>
 </div>
 
 <div class="list_product" style="margin-top:30px;">
-  <div class="text3" style="padding-top:10px; padding-left:5px; font-size:15px; color:#d49f31;">
+  <div class="text3" style="padding-top:10px; padding-left:5px; font-size:20px; color:#d49f31;">
       คำสั่งซื้อที่ 00002 <br/><br/>
-      <div style="margin-left:60px; font-size:18px; margin-top:25px;">รหัสสถานะสินค้า AS0002</div>
+      <div style="margin-left:55px; font-size:30px; margin-top:10px;">รหัสสถานะสินค้า AS0002</div>
   </div>
 </div>
 
 <div class="list_product" style="margin-top:30px;">
-  <div class="text3" style="padding-top:10px; padding-left:5px; font-size:15px; color:#d49f31;">
+  <div class="text3" style="padding-top:10px; padding-left:5px; font-size:20px; color:#d49f31;">
       คำสั่งซื้อที่ 00003 <br/><br/>
-      <div style="margin-left:60px; font-size:18px; margin-top:25px;">รหัสสถานะสินค้า AS0003</div>
+      <div style="margin-left:55px; font-size:30px; margin-top:10px;">รหัสสถานะสินค้า AS0003</div>
   </div>
 </div>
 

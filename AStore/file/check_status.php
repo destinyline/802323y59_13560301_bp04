@@ -105,7 +105,7 @@ $resultSet = mysqli_query($mysqli,$sql);
   
  
 <div class="list_product">
-  <div class="text3" style="padding-top:10px; padding-left:5px; font-size:12px; color:#d49f31;">
+  <div class="text3" style="padding-top:10px; padding-left:5px; font-size:18px; color:#d49f31;">
 
 
       <?php 
@@ -113,13 +113,13 @@ $resultSet = mysqli_query($mysqli,$sql);
       ?>
       <br>
   </div>
-  <div class="text4" style="padding-top:15px; padding-left:5px; font-size:18px; color:#d49f31;">
+  <div class="text4" style="padding-top:10px; padding-left:5px; font-size:22px; color:#d49f31;">
       <?php
       echo 'ยอดราคาสินค้ารวม &emsp;&emsp;&emsp;&emsp;&emsp;' .$Product_price.' -.' ;
       ?>
       <br>
   </div>
-  <div class="text4" style="padding-top:30px; padding-left:70px; font-size:20px; color:#d49f31;">
+  <div class="text4" style="padding-top:10px; padding-left:70px; font-size:30px; color:#d49f31;">
       <div class="show_status">
       <?php
 

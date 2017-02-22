@@ -1,3 +1,12 @@
+@font-face {
+font-family: 'TH SarabunPSK';
+src: url('./font/TH_SarabunPSK.ttf');
+}
+* {
+font-family:  'TH SarabunPSK';
+}
+
+
 html,body{
   width: 360px;
   height: 640px;
@@ -19,7 +28,7 @@ li {
   width: 117px;
   height: 60px;
   background: #142438;
-  font-size: 16px;
+  font-size: 20px;
   text-align: center;
   line-height: 60px;
   color: #d8a231;
@@ -27,18 +36,18 @@ li {
   position: relative;
   overflow: hidden;
   cursor: pointer;
+  font-weight: bold;
 }
 
 ul.nav li {
   font-size: 0;
   position: relative;
-
   user-select: none;
   display: inline-block;
   width: 220px;
   height: 60px;
   background: #eee;
-  font-size: 16px;
+  font-size: 26px;
   text-align: center;
   line-height: 60px;
   color: black;
@@ -157,7 +166,7 @@ body {
 
 /* Demo Navigation */
 .title {
-  font-size: 16px;
+  font-size: 25px;
   line-height: 50px;
   text-align: center;
   text-transform: uppercase;
@@ -172,7 +181,7 @@ body {
   position: relative;
   display: block;
   padding: 15px 15px 15px 50px;
-  font-size: 12px;
+  font-size: 20px;
   color: black;
   border-bottom: 1px solid #222;
 }
@@ -189,15 +198,15 @@ body {
 }
 
 .nav li:nth-child(2) a:before {
-  content: '\f012';
+  content: '\f217';
 }
 
 .nav li:nth-child(3) a:before {
-  content: '\f0e8';
+  content: '\f046';
 }
 
 .nav li:nth-child(4) a:before {
-  content: '\f0c3';
+  content: '\f08b';
 }
 
 .nav li:nth-child(5) a:before {
@@ -302,6 +311,8 @@ h2 {
 .text1{
   padding-top: 15px;
   color: #d49f31;
+  font-size: 23px;
+  font-weight: bold;
 }
 .search_box{
   width: 360px;
@@ -310,7 +321,7 @@ h2 {
 .text2{
   margin: 10px;
   padding-top: 30px;
-  font-size: 12px;
+  font-size: 18px;
 }
 .text6{
   padding-top: 10px;
@@ -474,7 +485,6 @@ color: white;
 input#partridge{
   width: 100px;
   text-align: center;
-  margin-top: 20px;
   margin-left: 165px;
 
 }
@@ -495,7 +505,7 @@ input#partridge{
 .text5{
   padding-left: 130px;
   width: 280px;
-  font-size: 12.5px;
+  font-size: 18px;
   margin-top: -95px;
   color: #d49f31;
 }
